@@ -1,4 +1,4 @@
-@charset
+
 /*header*/
 	(function(){
 		var $buy = $('#header .h_m_r_buy');
@@ -242,7 +242,7 @@
 		$play.click(function(){
 			$cover.show();
 			$cover.append('<div class="main">'+
-				'<div class="m_title"></span>'+ $(this).siblings('.title').html() +'</span><span class="close"> กม </span></div>'+
+				'<div class="m_title"></span>'+ $(this).siblings('.title').html() +'</span><span class="close"> ยกร </span></div>'+
 				'<div class="play">'+
 					'<embed src="http://player.video.qiyi.com/67089aea6e02f74444e51af14f7aca7f/0/0/w_19rqpqie4d.swf-albumId=1803006609-tvId=1803006609-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="800" height="540" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>'+
 				'</div>'+
