@@ -1,4 +1,4 @@
-
+@charset
 /*header*/
 	(function(){
 		var $buy = $('#header .h_m_r_buy');
